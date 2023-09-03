@@ -1,0 +1,104 @@
+/**
+ * base-color-palettes
+ */
+$color-palette--primary0: #fffbe6;
+$color-palette--primary1: #fbefb7;
+$color-palette--primary2: #f4e28a;
+$color-palette--primary3: #e9d362;
+$color-palette--primary4: #dbc142;
+$color-palette--primary5: #c8ad29;
+$color-palette--primary6: #ae9517;
+// 3:1 (#fcfcfc) ↓
+$color-palette--primary7: #8f790b;
+// 4.5:1 (#fcfcfc) ↓
+$color-palette--primary8: #6b5a04;
+$color-palette--primary9: #483c01;
+$color-palette--primary10: #262000;
+
+$color-palette--secondary0: #e6eaff;
+$color-palette--secondary1: #b7c2fb;
+$color-palette--secondary2: #8a9cf4;
+// 3:1 (#fcfcfc) ↓
+$color-palette--secondary3: #6279e9;
+// 4.5:1 (#fcfcfc) ↓
+$color-palette--secondary4: #425bdb;
+$color-palette--secondary5: #2943c8;
+$color-palette--secondary6: #1730ae;
+$color-palette--secondary7: #0b218f;
+$color-palette--secondary8: #04166b;
+$color-palette--secondary9: #010d48;
+$color-palette--secondary10: #000626;
+
+// Red
+$color-palette--red0: #ffe6e6;
+$color-palette--red1: #fbb7b7;
+$color-palette--red2: #f48a8a;
+// 3:1 (#fcfcfc) ↓
+$color-palette--red3: #e96262;
+$color-palette--red4: #db4242;
+// 4.5:1 (#fcfcfc) ↓
+$color-palette--red5: #c82929;
+$color-palette--red6: #ae1717;
+$color-palette--red7: #8f0b0b;
+$color-palette--red8: #6b0404;
+$color-palette--red9: #480101;
+$color-palette--red10: #260000;
+
+// Orange
+$color-palette--orange0: #fff0e6;
+$color-palette--orange1: #fbd3b7;
+$color-palette--orange2: #f4b68a;
+$color-palette--orange3: #e99b62;
+$color-palette--orange4: #db8242;
+// 3:1 (#fcfcfc) ↓
+$color-palette--orange5: #c86b29;
+// 4.5:1 (#fcfcfc) ↓
+$color-palette--orange6: #ae5617;
+$color-palette--orange7: #8f420b;
+$color-palette--orange8: #6b2f04;
+$color-palette--orange9: #481f01;
+$color-palette--orange10: #261000;
+
+// Green
+$color-palette--green0: #e6fff2;
+$color-palette--green1: #b7fbd9;
+$color-palette--green2: #8af4bf;
+$color-palette--green3: #62e9a6;
+$color-palette--green4: #42db8e;
+$color-palette--green5: #29c878;
+$color-palette--green6: #17ae63;
+// 3:1 (#fcfcfc) ↓
+$color-palette--green7: #0b8f4d;
+// 4.5:1 (#fcfcfc) ↓
+$color-palette--green8: #046b38;
+$color-palette--green9: #014824;
+$color-palette--green10: #002613;
+
+// Light Blue
+$color-palette--lightblue0: #e6ffff;
+$color-palette--lightblue1: #b7fbfb;
+$color-palette--lightblue2: #8af4f4;
+$color-palette--lightblue3: #62e9e9;
+$color-palette--lightblue4: #42dbdb;
+$color-palette--lightblue5: #29c8c8;
+$color-palette--lightblue6: #17aeae;
+// 3:1 (#fcfcfc) ↓
+$color-palette--lightblue7: #0b8f8f;
+// 4.5:1 (#fcfcfc) ↓
+$color-palette--lightblue8: #046b6b;
+$color-palette--lightblue9: #014848;
+$color-palette--lightblue10: #002626;
+
+// Gray
+$color-palette--gray0: #fcfcfc;
+$color-palette--gray1: #eaeaea;
+$color-palette--gray2: #bebebe;
+// 3:1, 4.5:1 (#fcfcfc) ↓
+$color-palette--gray3: #6a6a6a;
+$color-palette--gray4: #080808;
+
+/**
+ * 
+ */
+$color-semantics--bg-base: $color-palette--gray0;
+$color-semantics--text-base: $color-palette--gray4;

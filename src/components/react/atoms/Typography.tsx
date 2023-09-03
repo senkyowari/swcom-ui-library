@@ -1,5 +1,6 @@
-import React from 'react';
-
-export const Typography: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
-  return <p>{children}</p>;
+interface Props {
+  children?: React.ReactNode;
+}
+export const Typography = ({ children }: Props): JSX.Element => {
+  return <p className="ColorRed">{children}</p>;
 };

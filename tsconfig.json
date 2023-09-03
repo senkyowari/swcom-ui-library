@@ -35,14 +35,16 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.mdx",
     ".next/typest/**/*.s"
   ],
   "exclude": [
     "node_modules",
     "dist",
     "types",
-    "tests"
+    "tests",
+    ".storybook"
   ]
 }
