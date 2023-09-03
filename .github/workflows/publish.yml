@@ -1,0 +1,38 @@
+name: build
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@senkyowari'
+      - name: install and build
+        run: npm ci && npm run build --if-present
+        # run: npm ci && npm run build --if-present && npm test
+        # - name: bumpup version
+        #   run: node scripts/bumpup.js
+        # - name: commit bumpup
+        #   uses: cpina/github-action-push-to-another-repository@master
+        #   env:
+        #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        # with:
+        #   source-directory: '.'
+        #   destination-github-username: 'route-builders'
+        #   destination-repository-name: 'OudOperator'
+        #   user-email: github@senkyowari.com
+        #   user-name: 'senkyowari botuser'
+        #   commit-message: '[skip ci] bumpup version'
+        #   target-branch: master
+      - name: publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
